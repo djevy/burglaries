@@ -8,7 +8,7 @@ $appOptions = array(
 );
 
 define('OKTORUN+IMCOOL+GHSD3KFGDD5WDG4DFASFDBZDF', TRUE);
-include "../../_base/return.base.php";
+include "../_base/return.base.php";
 $appOptions["live"] = $mainOptions["live"];
 if ($appOptions["live"]) {
     $appOptions["localDbName"] = false;

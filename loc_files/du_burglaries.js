@@ -2,7 +2,7 @@
             var dashBoardEl = document.getElementById("current_setup");
         if (dashBoardEl) {
             var node = document.createElement("LI"); /* Create a <li> node */
-            var textnode = document.createTextNode("JS: 20220728 - 14:01:45"); /* Create a text node */
+            var textnode = document.createTextNode("JS: 20220728 - 14:23:06"); /* Create a text node */
             node.appendChild(textnode); /* Append the text to <li> */
             node.classList.add("js");
             document.getElementById("current_setup").appendChild(node);
@@ -735,7 +735,7 @@
                     return true;
                 }
                 started = true;
-                var filesToLoad = {"jq":"..\/js\/jquery-3.6.0.min.js","xtra":["..\/js\/jquery-ui.min.js","..\/js\/jquery.ui.touch-punch.min.js","..\/_base_pkg_inc\/code_to_min\/du_support_fc_script.min.js","..\/newsletter_subscription\/loc_files\/du_newsletter.js","..\/js\/leaflet.js"],"css":["loc_files/du_burglaries.css?cache=208140145","..\/js\/leaflet.css"]};
+                var filesToLoad = {"jq":"..\/js\/jquery-3.6.0.min.js","xtra":["..\/js\/jquery-ui.min.js","..\/js\/jquery.ui.touch-punch.min.js","..\/_base_pkg_inc\/code_to_min\/du_support_fc_script.min.js","..\/newsletter_subscription\/loc_files\/du_newsletter.js","..\/js\/leaflet.js"],"css":["loc_files/du_burglaries.css?cache=208142306","..\/js\/leaflet.css"]};
                 /** CSS */
                 for (let index = 0; index < filesToLoad.css.length; index++) {
                     du_loadCssFile(filesToLoad.css[index]);

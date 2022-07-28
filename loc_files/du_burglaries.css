@@ -1,0 +1,608 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Signika+Negative:wght@400;700&display=swap');
+
+    /** */
+    #current_setup:after {
+        content: "CSS: 20220728 - 14:01:45"
+    }
+
+    
+    /* RESET */
+    div#du-proj-burglaries.du-body div,
+    div#du-proj-burglaries.du-body h2,
+    div#du-proj-burglaries.du-body h3,
+    div#du-proj-burglaries.du-body p,
+    div#du-proj-burglaries.du-body span,
+    div#du-proj-burglaries.du-body ul,
+    div#du-proj-burglaries.du-body li,
+    div#du-proj-burglaries.du-body img,
+    div#du-proj-burglaries.du-body button,
+    div#du-proj-burglaries.du-body label,
+    div#du-proj-burglaries.du-body input,
+    div#du-proj-burglaries.du-body select {
+        color: inherit;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        line-height: normal;
+        box-sizing: content-box;
+        min-width: auto;
+    }
+
+    div#du-proj-burglaries.du-body ul,
+    div#du-proj-burglaries.du-body li {
+        list-style: none;
+    }
+
+    div#du-proj-burglaries.du-body a:focus,
+    div#du-proj-burglaries.du-body button:focus {
+        outline: 1px dotted #FFF;
+    }
+
+    div#du-proj-burglaries.du-body select:focus,
+    div#du-proj-burglaries.du-body textarea:focus,
+    div#du-proj-burglaries.du-body input:focus {
+        outline: 1px dotted #000;
+    }
+
+    div#du-proj-burglaries.du-body img {
+        display: block
+    }
+
+    div#du-proj-burglaries.du-body .du-img-hd,
+    div#du-proj-burglaries.du-body h2::before,
+    div#du-proj-burglaries.du-body h2::after,
+    div#du-proj-burglaries.du-body h3::before,
+    div#du-proj-burglaries.du-body h3::after {
+        display: none
+    }
+
+    /* CLEARFIX */
+    div#du-proj-burglaries.du-body div.du-header:after,
+div#du-proj-burglaries.du-body .du-container:after,
+
+    /** */
+    div#du-proj-burglaries.du-body:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    div#du-proj-burglaries.du-body div.du-header,
+div#du-proj-burglaries.du-body .du-container,
+
+    /** */
+    div#du-proj-burglaries.du-body {
+        *zoom: 1;
+    }
+
+    /* CSS */
+    div#du-proj-burglaries.du-body {
+        background: #363b59;
+        border: 0;
+        color: #fff;
+        font-family: "Open Sans", sans-serif;
+        font-size: 17px;
+        line-height: 1.1em;
+        margin: 10px auto;
+        padding: 0;
+        position: relative;
+        text-align: left;
+        width: 100%;
+        z-index: 1;
+        min-height: 330px;
+    }
+
+    div#du-proj-burglaries.du-body .du-wait {
+        background: none no-repeat scroll center center #444444;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: 3;
+        left: 0;
+        top: 0;
+    }
+
+    div#du-proj-burglaries.du-body .du-wait span {
+        background: none no-repeat scroll center center transparent;
+        background-color: rgba(0, 0, 0, 0.4);
+        background-image: url("../../_main_tm/spinning-loader-black-bg.gif");
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        display: block;
+        height: 100px;
+        margin: 0 auto;
+        position: relative;
+        top: 21%;
+        width: 100px;
+    }
+
+    div#du-proj-burglaries.du-body .du-wait.du-hide {
+        display: none;
+    }
+
+    div#du-proj-burglaries.du-body #du-js-warning {
+        text-align: center;
+        background-color: #000;
+        padding: 15px 0;
+        color: red;
+    }
+
+    div#du-proj-burglaries.du-body .du-container {
+        width: 96%;
+        max-width: 750px;
+        padding: 0px 0px 10px;
+        margin: 0 auto;
+    }
+
+    div#du-proj-burglaries.du-body .du-header {
+        background:
+            url("../img/du_bls_header_bg.png") no-repeat scroll center center #000;
+        background-size: 110% auto;
+        font-size: 1.2em;
+        display: block;
+        border-bottom: #de6e18 solid 5px;
+    }
+
+    div#du-proj-burglaries.du-body .du-header .du-container {
+        font-family: "Signika Negative", sans-serif;
+    }
+
+    div#du-proj-burglaries.du-body .du-header .du-header-img {
+        width: 100%;
+        max-width: 380px;
+        margin: 20px auto 0;
+    }
+
+    div#du-proj-burglaries.du-body .du-header .du-banner {
+        visibility: hidden;
+        color: #fff;
+        background: #a7120e;
+        margin: 0 auto;
+        font-weight: bold;
+        padding: 4px 10px 1px;
+        text-align: center;
+        text-transform: uppercase;
+        max-width: 200px;
+        font-size: 15px;
+    }
+
+    div#du-proj-burglaries.du-body h2 {
+        line-height: 1.1em;
+        font-size: 2.6em;
+        font-weight: bold;
+        margin: 15px auto;
+        text-align: center;
+        color: #FFF;
+    }
+
+    div#du-proj-burglaries.du-body .du-text {
+        line-height: 1.2em;
+        color: #FFF;
+        margin: auto;
+        text-align: center;
+    }
+
+    div#du-proj-burglaries.du-body .du-header .du-text {
+        font-size: 1.1em;
+        padding: 2px 8%;
+        text-align: center;
+    }
+
+    div#du-proj-burglaries.du-body #du-widget {
+        min-height: 250px;
+    }
+
+    div#du-proj-burglaries.du-body #du-widget .du-container {
+        color: #000;
+        display: none
+    }
+
+    div#du-proj-burglaries.du-body #du-search-box {
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px auto;
+        padding: 10px 0;
+        text-align: center;
+        padding: 15px;
+    }
+
+    div#du-proj-burglaries.du-body #du-search,
+    div#du-proj-burglaries.du-body #du-search-go {
+        font-size: 1em;
+        height: 30px;
+        line-height: 1em;
+        padding: 4px 0;
+        text-align: center;
+    }
+
+    div#du-proj-burglaries.du-body #du-search {
+        text-transform: uppercase;
+        font-weight: bold;
+        width: 75%;
+        margin-bottom: 10px;
+    }
+
+    div#du-proj-burglaries.du-body #du-search-go {
+        color: #000;
+        cursor: pointer;
+        font-weight: bold;
+        width: 30%;
+        background: #de6e18;
+        color: #ffd700;
+        -webkit-border-radius: 2em;
+        -moz-border-radius: 2em;
+        border-radius: 5px;
+    }
+
+    div#du-proj-burglaries.du-body #du-results {
+        display: none;
+        font-size: 1.1em;
+        padding: 10px 0 30px;
+        text-align: center;
+    }
+
+    div#du-proj-burglaries.du-body #du-results .du-text {
+        color: #000;
+    }
+
+    div#du-proj-burglaries.du-body #du-comparison-bar {
+        font-size: 1.1em;
+        /* padding: 10px 0 30px; */
+        margin-bottom: 10px;
+        text-align: center;
+        background: #de6e18;
+        height: 30px;
+        width: 100%;
+        z-index: 1;
+
+    }
+
+    /* Results Table */
+    div#du-proj-burglaries.du-body #du-table-holder {
+        margin: 10px auto;
+        width: 90%;
+        margin-top: 10px;
+        font-size: 1em;
+        display: none;
+    }
+
+    div#du-proj-burglaries.du-body #du-result-table {
+        color: #de6e18;
+        border-collapse: collapse;
+        border-spacing: 0;
+        background: transparent;
+        width: 100%;
+        font-weight: bold;
+    }
+
+    div#du-proj-burglaries.du-body #du-result-table .du-row-header {
+        border-right: 1px solid #d2d3d3;
+    }
+
+    div#du-proj-burglaries.du-body #du-result-table .du-table-body .du-table-row {
+        border-top: 1px solid #d2d3d3;
+    }
+
+    div#du-proj-burglaries.du-body #du-result-table .du-row-header {
+        width: 5.3em;
+    }
+
+    div#du-proj-burglaries.du-body #du-result-table .du-data-qty {
+        text-align: right;
+        vertical-align: middle;
+        font-size: 3em;
+        font-weight: 800;
+        width: 2em;
+    }
+
+    div#du-proj-burglaries.du-body .du-table {
+        display: table;
+    }
+
+    div#du-proj-burglaries.du-body .du-table .du-table-head,
+    div#du-proj-burglaries.du-body .du-table .du-table-body {
+        display: table-row-group;
+    }
+
+
+
+    div#du-proj-burglaries.du-body .du-table-row {
+        display: table-row;
+    }
+
+    div#du-proj-burglaries.du-body .du-table-cell {
+        display: table-cell;
+        padding: 5px;
+        vertical-align: top;
+    }
+
+    div#du-proj-burglaries.du-body .du-row-header {
+        width: 5.3em;
+        border-right: 1px solid #d2d3d3;
+    }
+
+    div#du-proj-burglaries.du-body .du-icon {
+        /* background-color: transparent; */
+        /* background: url("../img/du_bls_key_icon.png") no-repeat scroll center center; */
+    }
+
+    div#du-proj-burglaries.du-body .du-icon.du-icon-crime {
+        display: block;
+        height: 20px;
+        width: 20px;
+        margin: 0 5px 5px 0;
+        float: left;
+        /* background: red; */
+    }
+
+    div#du-proj-burglaries.du-body .du-icon.du-icon-crime.du-icon-tiny {
+        height: 7px;
+        width: 7px;
+    }
+
+    /* Results Table */
+
+
+    /* Map */
+    div#du-proj-burglaries.du-body #du-mapContainer {
+        width: calc(100% - 15px);
+        max-width: 600px;
+        height: 350px;
+        display: block;
+        padding: 0;
+        margin: 10px auto;
+    }
+
+    div#du-proj-burglaries.du-body #du-canvas {
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        border: solid #de6e18;
+        border-radius: 5px;
+    }
+
+
+    div#du-proj-burglaries.du-body .leaflet-popup-content {
+        padding: 6px;
+        background-color: rgba(255, 255, 255, .9);
+        border-radius: 5px;
+    }
+
+    div#du-proj-burglaries.du-body .leaflet-popup-right:before {
+        right: unset;
+        margin: 0;
+        border: unset;
+    }
+
+    div#du-proj-burglaries.du-body .leaflet-popup-left:before {
+        left: unset;
+        margin: 0;
+        border: unset;
+    }
+
+    /* Map */
+
+    /* Slider */
+    div#du-proj-burglaries.du-body #du-slider-container {
+        margin: 20px auto;
+        max-width: 605px;
+        width: 100%;
+    }
+
+    div#du-proj-burglaries.du-body #du-widget .du-section-slider {
+        background-color: #363b59;
+        padding: 5px;
+        border-radius: 5px;
+        border: #de6e18 solid;
+    }
+
+    div#du-proj-burglaries.du-body #du-widget .du-section-slider .du-text {
+        color: #fff;
+    }
+
+
+    div#du-proj-burglaries.du-body #du-widget .du-section-slider .du-bottom-line {
+        color: #de6e18;
+        padding-top: 10px;
+        text-align: center;
+    }
+    div#du-proj-burglaries.du-body #du-widget .du-section-slider #du-slider-text {
+        color: #de6e18;
+        font-weight: bold;
+        font-size: 1.2em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    div#du-proj-burglaries.du-body .du-item-header {
+        color: #452a19;
+        font-weight: bold;
+        text-align: center;
+        margin: 15px 0px;
+    }
+
+    div#du-proj-burglaries.du-body .du-slider-title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+
+    div#du-proj-burglaries.du-body .du-bold-data {
+        color: #de6e18;
+        font-weight: bold;
+    }
+
+
+    div#du-proj-burglaries.du-body .du-slider {
+        width: 90%;
+        height: 100%;
+        margin: 60px auto 0px;
+        position: relative;
+    }
+
+    div#du-proj-burglaries.du-body #du-slider-background {
+        display: block;
+        width: 100%;
+    }
+
+    div#du-proj-burglaries.du-body .du-slider-handle {
+        position: absolute;
+        bottom: 65%;
+        left: 0px;
+    }
+
+    div#du-proj-burglaries.du-body .du-slider-handle .du-slider-logo {
+        width: 40px;
+        margin: auto;
+    }
+
+    div#du-proj-burglaries.du-body #du-slider-dot {
+        position: absolute;
+        bottom: 0;
+        left: calc(50% - 5px);
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #fff;
+    }
+
+    div#du-proj-burglaries.du-body #du-slider-line {
+        width: 5px;
+        height: 30px;
+        margin: 0 auto;
+        background-color: #fff;
+    }
+
+    /* Slider */
+
+    div#du-proj-burglaries.du-body .du-footer {
+        text-align: center;
+    }
+
+    div#du-proj-burglaries.du-body #du-footnote {
+        font-style: italic;
+        color: #fff;
+    }
+
+    div#du-proj-burglaries.du-body .du-footer-txt {
+        color: #fff;
+    }
+
+    div#du-proj-burglaries.du-body .du-footer-txt span {
+        font-weight: bold
+    }
+
+    
+        /******
+        * Social
+        */
+        div#du-proj-burglaries.du-body #du-social-holder {
+            display: none;
+        }
+
+        div#du-proj-burglaries.du-body #du-social-holder.du-ok {
+            display: block;
+        }
+
+        div#du-proj-burglaries.du-body #du-social-holder .du-social-box {
+            display: inline-block;
+            margin: 1em 0.3em 0;
+        }
+
+        div#du-proj-burglaries.du-body #du-social-holder .du-social-box .du-social-btn {
+            /*
+            background: no-repeat scroll 0 0 ;
+            */
+            background: no-repeat scroll 0 0 transparent;
+            background-image: url("../../_main_tm/du_social_sprite.png");
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            -webkit-border-radius: 7px;
+            -moz-border-radius: 7px;
+            border-radius: 7px;
+            font-size: 15px;
+            padding: 0;
+            height: 57px;
+            width: 55px;
+        }
+
+        div#du-proj-burglaries.du-body #du-social-holder .du-social-box #du-btn-social-facebook {
+            /* background-color: #4267B2; */
+            background-position: 0 0;
+        }
+
+        div#du-proj-burglaries.du-body #du-social-holder .du-social-box #du-btn-social-twitter {
+            /* background-color: #1D9BF0; */
+            background-position: 0 -120px;
+        }
+
+        div#du-proj-burglaries.du-body #du-social-holder .du-social-box #du-btn-social-whatsapp {
+            /* background-color: #25D366; */
+            background-position: 0 -180px;
+        }
+
+        div#du-proj-burglaries.du-body #du-social-holder .du-social-box .du-social-btn span {
+            display: none;
+        }
+    /******
+     * placeholder
+     */
+    div#du-proj-burglaries.du-body ::-webkit-input-placeholder {
+        color: #606060;
+    }
+
+    div#du-proj-burglaries.du-body :-moz-placeholder {
+        /* Firefox 18- */
+        color: #606060;
+    }
+
+    div#du-proj-burglaries.du-body ::-moz-placeholder {
+        /* Firefox 19+ */
+        color: #606060;
+    }
+
+    div#du-proj-burglaries.du-body :-ms-input-placeholder {
+        color: #606060;
+    }
+
+    div#du-proj-burglaries.du-body ::placeholder {
+        color: #606060;
+    }
+
+    div#du-proj-burglaries.du-body :focus::-webkit-input-placeholder {
+        color: transparent;
+    }
+
+    /* MOBILE */
+    div#du-proj-burglaries.du-body.du-mobile {
+        font-size: 14px;
+    }
+
+    div#du-proj-burglaries.du-body.du-mobile div.du-header {
+        background-size: auto 110%;
+    }
+
+
+    /*     * *
+     * SPRITE
+     */
+    
+    /* Newsletter */
+    div#du-proj-burglaries.du-body #du-nlform.du-nlf-str .du-nlf-title {
+        color: #de6e18;
+    }
+
+    div#du-proj-burglaries.du-body #du-nlform.du-nlf-str .du-nlf-btn {
+        background-color: #363b59;
+        color: #de6e18;
+    }

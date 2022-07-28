@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Default code - Index.php</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0" />
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW" />
+        <style>
+        html,
+        body {
+            min-height: 100%;
+        }
+
+        body {
+            margin: 0;
+            padding: 0
+        }
+
+        body.body-widget {
+            background-color: #cfe7cf
+        }
+
+        body.body-widget-live {
+            background-color: #ffd9df
+        }
+
+        #current_setup {
+            padding-left: 10px
+        }
+
+        #current_setup:after,
+        #current_setup li {
+            list-style: none;
+            display: inline-block;
+            border: 2px solid #fff;
+            border-radius: 1em;
+            font-size: 14px;
+            text-transform: capitalize;
+            padding: 2px 6px;
+            margin: 0 2px;
+            background: #c60000;
+            color: #fff;
+            font-weight: bold
+        }
+
+        #current_setup li.js,
+        #current_setup:after {
+            background: #004f9c
+        }
+
+        #current_setup li.on {
+            background: #00b700
+        }
+
+        #current_setup li.genCode {
+            border-radius: 0;
+            background: gold;
+            border: 2px solid #000
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 16px
+            }
+        }
+    </style>
+</head>
+
+<body class="body-widget-live">
+    <ul id="current_setup" class="notlocal">
+        <li class=''>local</li><li class=''>json</li><li class=''>ui</li><li class=''>analytics</li>    </ul>
+    <!-- ********************************** INI *************************** -->
+    <!-- #### -->
+    <script src="code_to_min/du_default_code.js"></script>
+<div  id="du-proj-default-code"  class="du-body du-mobile "  data-tmdatatrack="data-unit_default_code" >
+    <div id="du-wait-dc" class="du-wait du-hide"><span>&nbsp;</span></div>
+    <noscript>
+        <div id="du-js-warning">This widget requires javascript to work.</div>
+    </noscript>
+    <a name="du-top"></a>
+    <div id="du-widget-body">
+        <div id="du-temp-header" class="du-header">
+            <div class="du-container">
+                <h2>Type main title</h2>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<script>
+    (function() {
+        function waitForIt(thisFunc, attempts) {
+            if (typeof(window[thisFunc]) == "function") {
+                const thisApp = new window[thisFunc]();
+            } else {
+                if (--attempts > 0) {
+                    setTimeout(function() {
+                        waitForIt(thisFunc, attempts)
+                    }, 100);
+                }
+            }
+        }
+        waitForIt("du_default_code_dc_widget", 30);
+    }());
+</script>    <!-- #### -->
+    <!-- ********************************** END *************************** -->
+</body>
+
+</html>
